@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: "Cookin-Up--Lista-de-receitas/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
